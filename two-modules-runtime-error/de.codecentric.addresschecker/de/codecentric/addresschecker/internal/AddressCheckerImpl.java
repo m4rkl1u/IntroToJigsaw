@@ -17,9 +17,5 @@ public class AddressCheckerImpl implements AddressChecker {
         } catch (Exception e) {
             throw new  RuntimeException(e);
         }
-
-
-
-
     }
 }

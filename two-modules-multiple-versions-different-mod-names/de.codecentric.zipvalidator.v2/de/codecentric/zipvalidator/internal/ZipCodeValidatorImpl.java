@@ -8,7 +8,7 @@ import de.codecentric.zipvalidator.api.ZipCodeValidator;
 public class ZipCodeValidatorImpl implements ZipCodeValidator{
     @Override
     public boolean zipCodeIsValid(String zipCode) {
-        System.out.println("v1");
+        System.out.println("v2");
 
         return zipCode != null && zipCode.length() == 5;
     }
